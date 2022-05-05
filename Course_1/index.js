@@ -1,6 +1,6 @@
 //Ex1
 calculate = (n) => { 
-  return n % 2 == 0 ? n - 2 : 2 * n
+  return n % 2 == 0 ? n - 2 : 2 * n;
 }
 console.log(calculate(4));
 console.log(calculate(5));

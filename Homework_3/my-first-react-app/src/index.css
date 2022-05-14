@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 10px;
+  
+}
+
+.example {
+  border: 2px solid;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+.produs-alimentar {
+  width: 100px;
+  position: relative;
+  padding-top: 1px;
+  height: 165px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.nume {
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+  color: darkblue;
+}
+
+.pret {
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+  color: gray;
+}
+
+.categorie {
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+  font-weight: 1000;
+}
+
+.remove-produs {
+  position: absolute;
+  color: red;
+  border: 1px solid;
+  cursor: pointer;
+  margin-left: 45px;
+}
+
+.remove-produs:hover {
+  color: white;
+  background: red;
+}
+
+.culoare-preferata {
+  color: blue;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.form {
+  border: 2px solid;
+  margin: 20px;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+.input-text {
+  padding: 20px;
+  margin: 5px;
+}
+
+.input-color {
+  padding: 10px; 
+  margin: 5px;
+}
+
+.button {
+  background-color: green; 
+  border: 1px solid;
+  border-color: blue;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

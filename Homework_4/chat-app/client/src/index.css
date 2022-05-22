@@ -43,7 +43,8 @@
 
 .categorie {
   text-align: center;
-  margin: 10px;
+  margin: 15px;
+  padding: 5px;
   font-weight: 1000;
 }
 
@@ -97,8 +98,47 @@
   font-size: 16px;
 }
 
-.gradient-box {
-  width: 100px;
-  height: 100px;
+.chat-box {
   border: 1px solid;
+  width: 400px;
+  height: 400px;
+  background-color: antiquewhite;
+}
+
+.chat {
+  padding: 10px;
+}
+
+.message {
+  padding: 5px;
+  margin: 5px;
+  color: blue;
+  font-size: 20px;
+}
+
+.send-button {
+  margin: 5px;
+  padding: 5px;
+  position: absolute;
+}
+
+.input-message {
+  margin: 5px;
+  padding: 5px;
+  color: green;
+  font-weight: 600;
+}
+
+.input-name {
+  margin: 5px;
+  padding: 5px;
+  color: orange;
+  font-weight: 600;
+}
+
+.notification {
+  border: 1px solid black;
+  background-color: lightblue;
+  width: fit-content;
+  height: 30px;
 }

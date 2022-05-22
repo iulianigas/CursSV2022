@@ -37,9 +37,9 @@ ProdusAlimentar.propTypes = {
 };
 
 ProdusAlimentar.defaultProps = {
-  culoareCategorie: "#ffffff",
-  categorie: "Categorie inexistenta",
-  nume: "Nume inexistent",
+  culoareCategorie: "red",
+  categorie: "Preț inexistent",
+  nume: "Preț inexistent",
   pret: "Preț inexistent",
 };
 

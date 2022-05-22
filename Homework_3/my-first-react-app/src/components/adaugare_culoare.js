@@ -1,27 +1,30 @@
 import { useState } from "react";
 
 const AdaugareCuloare = (props) => {
-  const [nume, setPret] = useState("");
-  const [categorie, setcategorie] = useState("#ffffff");
+  const [nume, setName] = useState("");
+  const [culoareCategorie, setCuloareCategorie] = useState("#ffffff");
 
   const handleClick = () => {
-    props.handleClick({ categorie, nume });
+    props.handleClick({ culoareCategorie, nume });
   };
 
-  const updatePret = (event) => {
-    setPret(event.target.value);
+  const updateName = (event) => {
+    setName(event.target.value);
   };
 
   return (
     <>
-      <input className="input-text" type="text" value={nume} onChange={updatePret}></input>
+      <div className="d-flex">
+      <input className="input-text" type="text" value={nume} onChange={updateName}></input>
       <input
         className="input-color"
         type="color"
-        value={categorie}
-        onChange={(e) => setcategorie(e.target.value)}
+        value={culoareCategorie}
+        onChange={(e) => setCuloareCategorie(e.target.value)}
       ></input>
       <button className="button" onClick={handleClick}>Add</button>
+      </div>
+      
     </>
   );
 };

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Message from "./message";
 
 const ChatBox = ({ socket }) => {
   const [messages, setMessages] = useState([]);
@@ -19,7 +20,7 @@ const ChatBox = ({ socket }) => {
     <>
       <div className="chat-box">
         {messages.map((message, index) => (
-          <p className="message" key={`message-${index}`}>{message}</p>
+          <Message key={`message-${index}`} message={message} />
         ))}
       </div>
     </>

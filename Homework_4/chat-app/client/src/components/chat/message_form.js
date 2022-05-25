@@ -5,7 +5,7 @@ const MessageForm = ({ socket }) => {
   const [name, setName] = useState("");
 
   const sendMessage = () => {
-    socket.emit("new-message", `${name}: ${message}`);
+    socket.emit("new-message", { name, message });
     setMessage("");
   }
 

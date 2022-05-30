@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 10px;
+  
+}
+
+.d-flex {
+  display: flex;
+}
+
+.graph-answer {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(178, 229, 178);
+}
+
+.message {
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.error {
+  color: red;
+}
+
+.message:before {
+  content:"• ";
+}
+
+.send-button {
+  margin: 5px;
+  padding: 5px;
+  position: absolute;
+}
+
+.input-message {
+  margin: 5px;
+  padding: 5px;
+  color: green;
+  font-weight: 600;
+}
+
+.graph {
+  text-align: center;
+}

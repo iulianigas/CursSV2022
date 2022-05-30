@@ -32,4 +32,10 @@ Homework 3
   <li>React Hooks(function useState)</li>
   <li>Lifecycle hooks(function useEffect)</li>
 </ul>
-<p>The solution for the React App is located in Homework_3
+<p>The solution for the React App is located in Homework_3 </p>
+
+<hr class="solid"
+  
+Homework 4
+<p>Create a chat using React and Socket.IO </p>
+<p>The solution for the chat is located in Homework_4 </p>
